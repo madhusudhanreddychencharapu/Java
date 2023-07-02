@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19.0.1" class="java.beans.XMLDecoder">
+ <object class="org.example.core.filehandling.xmlfilehandling.College" id="College0">
+  <void class="org.example.core.filehandling.xmlfilehandling.College" method="getField">
+   <string>students</string>
+   <void method="set">
+    <object idref="College0"/>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="org.example.core.filehandling.xmlfilehandling.Student">
+       <void property="rollno">
+        <int>100</int>
+       </void>
+       <void property="sname">
+        <string>Madhu Sudhan Reddy</string>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="org.example.core.filehandling.xmlfilehandling.Student">
+       <void property="rollno">
+        <int>101</int>
+       </void>
+       <void property="sname">
+        <string>Sai krishna Reddy</string>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
